@@ -59,7 +59,7 @@ class Config:
     """Number of steps between saving checkpoints."""
 
     # Model parameters
-    base_model_path: str = "nvidia/GR00T-N1-2B"
+    base_model_path: str = "/data/data2/models/GR00T-N1-2B"
     """Path or HuggingFace model ID for the base model."""
 
     tune_llm: bool = False
