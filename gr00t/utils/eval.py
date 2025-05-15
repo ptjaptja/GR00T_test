@@ -117,6 +117,7 @@ def calc_mse_for_single_trajectory(
             ax.legend()
 
         plt.tight_layout()
+        plt.savefig(f"trajectory_{traj_id}.png")
         plt.show()
 
     return mse

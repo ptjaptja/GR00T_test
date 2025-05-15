@@ -134,6 +134,7 @@ def load_dataset(dataset_path: str, embodiment_tag: str, video_backend: str = "d
         ax.axis("off")
         ax.set_title(f"Image {i}")
     plt.tight_layout()  # adjust the subplots to fit into the figure area.
+    plt.savefig("OK.png") # 保存观看
     plt.show()
 
 
